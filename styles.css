@@ -8,3 +8,6 @@
 .all-screenshots summary { cursor: pointer; color: var(--accent); padding: 1rem 0; font-weight: 600; }
 .all-screenshots summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .all-screenshots[open] summary { margin-bottom: 1rem; }
+
+/* Breathing room after the expanded development approach. */
+.process ol + p { margin-top: 24px; }
